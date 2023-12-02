@@ -3,19 +3,19 @@
 
         {
             "school": "Boston University",
-            "program/major": "Software Development",
+            "program-major": "Software Development",
             "type": "MS",
             "yearConferred": 2024
         },
         {
             "school": "University of Nevada Las Vegas",
-            "program/major": "Economics",
+            "program-major": "Economics",
             "type": "MA",
             "yearConferred": 2011
         },
         {
             "school": "University of Nevada Las Vegas",
-            "program/major": "History",
+            "program-major": "History",
             "type": "BA",
             "yearConferred": 2007
         }

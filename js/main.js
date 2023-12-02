@@ -1,9 +1,5 @@
 var el = document.getElementById('addEducation');
 
-function boomTrain(){
-    window.alert('Boom train');
-}
-
 async function getEducation(){
     try {
         const url = "./data/education.json";
