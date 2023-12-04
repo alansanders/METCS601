@@ -18,9 +18,21 @@ async function getEducation(){
 function processEducation(education){
     const educationlist = education.degrees.map(education => {
         return `
-        <h2>
-        ${education.school}
-        </h2>
+        <div class="degree-item">
+            <dl>
+                <dt>
+                ${education.school}
+                </dt>
+                <dt>
+                ${education.type}, ${education.program}
+                </dt>
+                <dt>
+                ${education.yearConferred}
+                </dt>
+                <dd>
+                </dd>
+            </dl>
+        </div>
         `
     })
 
